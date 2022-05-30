@@ -1,5 +1,6 @@
 :root{
     --color-primary:#148F2B;
+    --color-primary-degraded:#148f2b9e;
 }
 
 *{
@@ -13,7 +14,7 @@ nav{
     justify-content: space-between;
     padding: 20px;
     font-size: 1.3rem;
-  
+    padding-top:20px;
 }
 
 
@@ -43,4 +44,95 @@ nav ul a{
     line-height:50px;
     color: #000;
     font-weight: bold;
+}
+
+
+/*MAIN FRAME panel1*/
+
+.main-frame{
+    padding: 50px 0px 50px 0px;
+    width: 70%;
+    margin: auto;
+}
+
+.panel1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cambio{
+    flex:50%;
+}
+
+.cambio-h2{
+    padding-right: 50px;
+    font-size: 2.6rem;
+}
+.cambio-btn{
+    outline: none;
+    border:none;
+    width:145px;
+    height:54px;
+    font-size:1.3rem;
+    margin-top:10px;
+    background: var(--color-primary);
+    color:#fff;
+    font-weight: bold;
+    transition: all .5s ease; 
+
+}
+.cambio-btn:hover{
+    background: var(--color-primary-degraded);
+    cursor:pointer;
+}
+.fram-photos{
+    flex:50%;
+}
+
+.fram-photos img{
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.fram-photos img:last-child{
+    transform: translateX(55px);
+}
+
+/*PANEL 2*/
+
+.panel2{
+    background: var(--color-primary);
+    height: 50vh;
+    width:100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.3rem;
+    font-weight: bold;
+}
+.panel2-text{
+    padding-right: 10%;
+    
+}
+
+.calc{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.calc div{
+    flex:50%;
+
+}
+.calc input{
+    flex:50%;
+}
+
+.ruble-value{
+    font-size: 3.5rem;
+    text-shadow: 2px 1px 3px  rgb(20, 20, 20);
 }

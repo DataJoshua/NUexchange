@@ -121,18 +121,49 @@ nav ul a{
 .calc{
     display: flex;
     justify-content: center;
-    
+    margin-bottom: 20px;
 }
+
+
 
 .calc div{
-    flex:50%;
-
+    margin-right: 20px;
+    line-height: 50px;
 }
-.calc input{
-    flex:50%;
+.input-ruble{
+    flex:40%;
+    margin-right: 10px;
+    outline: none;
+    font-size: 1.2rem;
+    width:80%;
+    padding-left:10px;
+}
+.calculator-btn{
+    border: none;
+    width:70px;
+    height:50px;
+    flex:30%;
+  font-weight: bold;
+}
+
+.calculator-btn:hover{
+    cursor:pointer;
 }
 
 .ruble-value{
     font-size: 3.5rem;
     text-shadow: 2px 1px 3px  rgb(20, 20, 20);
+}
+
+
+@media  (max-width:1000px){
+    .main-frame{
+        width: 80%;
+    }
+    .panel2{
+        flex-direction: column;
+    }
+    .panel1{
+        flex-direction: column;
+    }
 }

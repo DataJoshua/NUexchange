@@ -104,7 +104,7 @@ nav ul a{
 
 .panel2{
     background: var(--color-primary);
-    height: 50vh;
+    
     width:100%;
     margin-top: 40px;
     display: flex;
@@ -116,7 +116,8 @@ nav ul a{
 }
 .panel2-text{
     padding-right: 10%;
-    
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .calc{
@@ -200,12 +201,12 @@ nav ul a{
         transform: translateX(0px);
     }
     .panel2{
-        padding:50px 0px 150px 0px;
+        padding:50px 0px 70px 0px;
     }
     .panel2-text{
-        margin-top: 90px;
-        margin-bottom: 50px;
-        padding: 0px;
+        margin-top: 20px;
+        margin-bottom: 30px; 
+        padding: 0px !important;
         text-align: center;
     }
     .output-ruble{

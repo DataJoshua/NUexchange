@@ -118,45 +118,50 @@ nav ul a{
 }
 .panel2-text{
     padding-right: 10%;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .calc{
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    height: 40px;
 }
 
 
 
 .calc div{
     margin-right: 20px;
-    line-height: 50px;
+    line-height: 40px;
 }
 .input-ruble{
     flex:40%;
     margin-right: 10px;
     outline: none;
+    border:none; 
+     
     font-size: 1.2rem;
     width:80%;
     padding-left:10px;
     font-weight: bold;
+ 
 }
+
 .calculator-btn{
     border: none;
-    border-radius: 10px;
     width:70px;
-    height:50px;
+    height:40px;
     flex:30%;
     font-weight: bold;
-    background: #146A8F;
+    background: var(--color-primary);
     color: #fff;
     font-size: 1.2rem;
 }
 
 .calculator-btn:hover{
     cursor:pointer;
+    
 }
 
 .ruble-value{
@@ -272,9 +277,12 @@ nav ul a{
 
 @media (max-width: 550px){
 
+    .main-frame{
+        width: 90%;
+    }
     .fram-photos{
         flex-direction: column;
-        padding: 0px 55px 0px 55px;
+        padding: 0px 30px 0px 30px;
     }
     .fram-photos img{
         width: 100%;

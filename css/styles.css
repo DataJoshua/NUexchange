@@ -150,11 +150,12 @@ nav ul a{
 
 .calculator-btn{
     border: none;
+    border-radius: 5px;
     width:70px;
     height:40px;
     flex:30%;
     font-weight: bold;
-    background: var(--color-primary);
+    background: #194d22;
     color: #fff;
     font-size: 1.2rem;
 }
@@ -182,7 +183,7 @@ nav ul a{
  
 }
 .container-2 h1{
-    margin: 0px 0px 50px 0px;
+    margin: 25px 0px 50px 0px;
     font-weight: bold;
 
 }
@@ -289,11 +290,16 @@ nav ul a{
     }
     .panel2{
         margin:0px;
+        padding: 30px 0px 30px 0px;
+        flex-direction: column;
      
     }
+
     .panel2-text{
-        padding-top: 70px;
+        padding: 0px;
+        margin: 0px;
     }
+  
     .cambio{
         margin-bottom: 50px;
     }
@@ -306,8 +312,12 @@ nav ul a{
     .calc{
         flex-direction: column;
         align-items: center;
+        height: auto;
+        margin: 20px 0px 0px 0px;
     }
-    
+    .calc div{
+        margin: 0px;
+    }
     .input-ruble{
         height: 70px;
         flex:none;
@@ -315,8 +325,9 @@ nav ul a{
     .calculator-btn{
         width: 150px;
         font-size: 1.4rem;
-        height:70px;
+        height:50px;
         margin-top: 10px;
+        margin-bottom: 10px;
         flex:none;
     }
     .grid-cards{

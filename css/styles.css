@@ -251,6 +251,26 @@ footer{
 }
 
 
+/* WS logo*/
+
+.fixed-ws{
+    position: fixed;
+    right: 10%;
+    top: 100%;
+    transform: translateY(-120%);
+    background-color: #ccc;
+    border-radius:10px;
+    width: 70px;
+    height: 70px;
+    z-index: 10000;
+}
+.fixed-ws:hover{
+    cursor: pointer;
+}
+.fixed-ws img{
+    width: 100%;
+    height: 100%;
+}
 
 
 @media  (max-width:1000px){
@@ -393,5 +413,6 @@ footer{
     }
     footer{
         flex-direction: column;
+    
     }
 }

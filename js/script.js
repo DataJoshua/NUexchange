@@ -50,6 +50,32 @@ $(document).ready(()=>{
   
 
 
+    // WP logo
+
+
+    let fixed_ws = $(".fixed-ws");
+    let fixed_div = $(".fixed-div");
+    let fixed_img = $(".fixed-ws img");
+    let fixed_p = $(".fixed-div p");
+    
+    fixed_div.hide();
+    fixed_p.css("color", "#ccc");
+
+
+    fixed_img.on("mouseover", ()=>{
+        fixed_div.show("fast", ()=>{
+            fixed_p.css("color", "#000");
+        });
+      
+        
+    });
+
+    fixed_img.on("mouseout", ()=>{
+        fixed_p.css("color", "#ccc");
+        fixed_div.hide("fast");
+        
+    });
+
 
 });
 

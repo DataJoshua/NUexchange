@@ -11,6 +11,17 @@
     margin:0px;
 }
 
+::-webkit-scrollbar{
+    width:7px;
+}
+::-webkit-scrollbar-track{
+    background: #ccc;
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--color-primary);
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -19,7 +30,12 @@ nav{
     padding-top:20px;
 }
 
-
+.logo{
+   
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; 
+}
 .logo:before{
     content:'NU';
     color: var(--color-primary);
@@ -246,6 +262,7 @@ footer{
 }
 .icons-grid div{
     overflow: hidden;
+    border-radius: 10px;
     width: 80px;
     height: 80px;
 }
@@ -255,21 +272,35 @@ footer{
 
 .fixed-ws{
     position: fixed;
-    right: 10%;
+    right: 4%;
     top: 100%;
+    display: flex;
+    align-items: center;
+    background: #cdc;
     transform: translateY(-120%);
-    background-color: #ccc;
+
     border-radius:10px;
-    width: 70px;
-    height: 70px;
+    text-decoration: none;
     z-index: 10000;
 }
 .fixed-ws:hover{
     cursor: pointer;
+    
 }
+.fixed-ws div{
+    box-sizing: border-box;
+    padding: 20px;
+    color: #000;
+    font-weight: bold;
+    
+
+}
+
+
 .fixed-ws img{
-    width: 100%;
-    height: 100%;
+    width: 70px;
+    height: 70px;
+
 }
 
 

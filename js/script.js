@@ -32,7 +32,14 @@ $(document).ready(()=>{
 
    */ 
     
+    valor_actual_ruble.innerHTML = 56;
     
+    let btn_cambio = document.querySelector(".cambio-btn");
+
+    btn_cambio.addEventListener("click", ()=>{
+
+        window.location.href =  "https://nuexchange.netlify.app/contact.html";
+    });
  
     let ruble_icon = $(".ruble-icon");
 

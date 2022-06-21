@@ -18,8 +18,7 @@ $(document).ready(()=>{
     headers: myHeaders
     };
 
-    /*
-
+/**
     fetch("https://api.apilayer.com/exchangerates_data/convert?to=RUB&from=USD&amount=1", requestOptions)
     .then(response => response.json())
     .then(result => {
@@ -31,7 +30,7 @@ $(document).ready(()=>{
     )
     .catch(error => console.log('error', error)); 
 
-    */ 
+   */ 
     
     
  

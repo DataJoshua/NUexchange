@@ -312,6 +312,52 @@ footer{
 }
 
 
+/*CONTACT HTML*/
+
+
+.contact-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-ul{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.contact-text{
+    display: flex;
+}
+
+.contact-text h3{
+    line-height: 50px;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.contact-img{
+    width: 50px;
+    height:50px;
+}
+.contact-img:hover{
+
+    cursor:pointer;
+}
+.contact-ws{
+  
+    margin-left: 20px;
+}
+.contact-tele{
+
+    margin-left: 55px;
+}
+
+
+
+
 @media  (max-width:1000px){
     .main-frame{
         width: 80%;

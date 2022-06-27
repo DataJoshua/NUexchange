@@ -82,6 +82,15 @@ $(document).ready(()=>{
         
     });
 
+    //redireccionar al usuario al inicio tras presionar el logo del  banner
+
+    let log = $(".logo");
+    log.on("click",()=>{
+
+        window.location.href = "https://nuexchange.netlify.app/index.html";
+        console.log('presionado');
+    });
+
 
 });
 

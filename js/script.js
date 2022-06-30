@@ -32,7 +32,7 @@ $(document).ready(()=>{
 
    */ 
     
-    valor_actual_ruble.innerHTML = 54;
+    valor_actual_ruble.innerHTML = 55;
     
     let btn_cambio = document.querySelector(".cambio-btn");
 

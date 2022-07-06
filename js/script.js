@@ -32,7 +32,7 @@ $(document).ready(()=>{
 
    */ 
     
-    valor_actual_ruble.innerHTML = 62;
+    valor_actual_ruble.innerHTML = 66;
 
     let va = 10;
     let p = 50; 

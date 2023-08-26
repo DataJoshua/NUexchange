@@ -1,13 +1,8 @@
 $(document).ready(()=>{
     
-    let valor_actual_ruble = document.querySelector(".ruble-value");
     let date = $(".date");
-    let btn = $(".calculator-btn");
-    let valor_usd = document.querySelector(".input-ruble");
-    let valor_rub = $(".output-ruble");
+    let valor_actual_ruble = document.querySelector(".ruble-value");
 
-
-    
     //API para saber el valor de rublos
     var myHeaders = new Headers();
     myHeaders.append("apikey", "8RNa1SAourpeaawdUd7WcZnncUMp85wl");
@@ -33,28 +28,8 @@ $(document).ready(()=>{
    */ 
     
     valor_actual_ruble.innerHTML = 57;
-    
-    let btn_cambio = document.querySelector(".cambio-btn");
-
-    btn_cambio.addEventListener("click", ()=>{
-
-        window.location.href =  "https://nuexchange.netlify.app/contact.html";
-    });
- 
-    let ruble_icon = $(".ruble-icon");
-
-    btn.on("click", ()=>{
-
-        let result = parseInt(valor_actual_ruble.innerHTML) * parseInt(valor_usd.value); 
-   
-        valor_rub.text("Obtendras: " + result);
-
-    });
-
-    ruble_icon.hide()
 
   
-
 
     // WP logo
 

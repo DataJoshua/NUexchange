@@ -27,7 +27,7 @@ $(document).ready(()=>{
 
    */ 
     
-    valor_actual_ruble.innerHTML = 57;
+    valor_actual_ruble.innerHTML = 95;
 
   
 
